@@ -7,22 +7,55 @@
 /*este este el css del menu*/
 
 .menu{
+    height: 7vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-weight: 700;
-    background-color: blueviolet;
+    background-color: rgb(80, 83, 169);
     
 }
 
 a{
+    padding: 10px 0 0 0;
     text-decoration: none;
     color: white;
     text-transform: initial;
     cursor: pointer;
+    font-size: 15px;
     
 }
 
 a:hover{
     color: orange;
 }
+.hero{
+    background-color: rgb(80, 83, 169);
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.soyyo h1{
+    text-align: left;
+    padding: 30px 20px 30px 80px;
+    font-size: 52px;
+    color: white;
+}
+
+.soyyo p{
+    text-align: left;
+    color: white;
+    padding: 1px 20px 30px 80px;
+
+}
+.bcomience{
+    display: flex;
+    justify-content: left;
+    padding: 1px 20px 30px 80px;
+
+}
+
+
+
