@@ -214,6 +214,9 @@
 .portfolios h4{
     color: blueviolet;
 }
+.portfolios h2{
+    font-size: 27px;
+}
 .botonport a{
     background-color: white;
     color: black;
@@ -243,4 +246,71 @@
 .paginamuebles img{
     width: 30%;
     height: 10vh;
+}
+
+.hablar{
+    text-align: left;
+    padding: 30px 40px 40px 40px;
+    color: white;
+    background-color: blueviolet;
+}
+.hablar h2{
+    font-size: 27px;
+    padding: 22px;
+}
+.hablar p{
+    padding: 22px;
+}
+.hablar button{
+    padding: 10px 24px 10px 30px;
+}
+.footer{
+    height: 70vh;
+    padding: 20px;
+}
+
+.contenedorf{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.menuff{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.menuff h2{
+    font-size: 15px;
+}
+.contenedorf h2{
+    font-size: 27px;
+}
+.susu h4{
+    color: blueviolet;
+}
+.botonsu form{
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+    
+}
+.botonsu p{
+    margin-bottom: 25px;
+}
+.botonsu form .campo{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-color: white;
+    border-radius: 3px 0px 0px 3px;
+    outline: 0px;
+}
+.botonsu form .btn-sub{
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 0px 3px 3px 0px;
+    color: white;
+    background-color:rgb(76, 0, 255);
+    cursor: pointer;
+    outline: 0px;
 }
