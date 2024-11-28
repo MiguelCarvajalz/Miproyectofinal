@@ -32,7 +32,7 @@
     
 }
 
-a:hover{
+.menu a:hover{
     color: orange;
 }
 .hero{
@@ -205,4 +205,42 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
+}
+.portfolios{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.portfolios h4{
+    color: blueviolet;
+}
+.botonport a{
+    background-color: white;
+    color: black;
+    
+    border-color: blueviolet;
+
+}
+.botonport a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.Paginasas{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.Paginasas img{
+    width: 30%;
+    height: 10vh;
+}
+.paginamuebles{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.paginamuebles img{
+    width: 30%;
+    height: 10vh;
 }
