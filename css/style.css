@@ -35,6 +35,14 @@
 .menu a:hover{
     color: orange;
 }
+.menu button{
+    background-color: orange;
+    padding: 15px 15px;
+    border-radius: 70%;
+    cursor: pointer;
+    color: white;
+
+}
 .hero{
     background-color: rgb(80, 83, 169);
     height: 70vh;
@@ -48,6 +56,20 @@
     height: 70vh;
     margin-right: 0%;
     
+}
+.mirarintro{
+    padding: 25px 25px;
+    width: 100%;
+}
+.mirarintro a{
+    color: white;
+}
+.mirarintro button{
+    background-color: orange;
+    padding: 15px 15px;
+    border-radius: 70%;
+    cursor: pointer;
+    color: white;
 }
 
 
@@ -313,4 +335,14 @@
     background-color:rgb(76, 0, 255);
     cursor: pointer;
     outline: 0px;
+}
+.botonsu form .btn-sub:hover{
+    background-color: blue;
+}
+.hablar button{
+    background-color: orange;
+    padding: 15px 15px;
+    border-radius: 70%;
+    cursor: pointer;
+    color: white;
 }
