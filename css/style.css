@@ -79,18 +79,32 @@ a:hover{
 .contenedortres{
     display: flex;
     justify-content: center;
-    padding: 20px 60px 30px 60px;
-    background: whitesmoke;
-    margin-bottom: 20px;
     align-items: center;
     text-align: center;
-    
-    
-    
+    padding: 10px 40px 10px 40px;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 .contenedortres i{
     font-size: 50px;
-    color: blueviolet;
+    
+}
+
+.diseñou:hover{
+    color: white;
+    background-color: blueviolet;
+    margin-inline: 10px;
+}
+.flujoweb:hover{
+    color: white;
+    background-color: blueviolet;
+    margin-inline: 10px;
+}
+.producto:hover{
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 10px;
 }
 
 .servicio{
@@ -107,29 +121,70 @@ a:hover{
     padding: 0px 0 0px 0;
     font-size: 27px;
 }
-
-.diseñou{
-    
-    
-    
-
-    
+.tercera{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    padding: 30px 40px 30px 40px;
 }
-.flujoweb{
-   
-    
-    
-   
-
-    
-}
-.pruductodiseño{
-    
-    
+.sobremi{
+    width: 40%;
 
 
 }
+.tercera h4{
+    color: blueviolet;
+    padding: 40px 0 10px 0;
+}
+.tercera h2{
+    font-size: 27px;
+    padding: 0 0 10px 0;
+}
+.tercera img{
+    height: 70vh;
+    width: 50%;
+}
+
+.tercera p{
+    padding: 5px 0 10px 0;
+}
+.pcompleto{
+    background-color: wheat;
+    margin-bottom: 10px;
+}
+.mexperiencia{
+    background-color: rgb(210, 180, 237);
+    margin-bottom: 10px;
+}
+.proceso{
+    text-align: center;
+    height: 70vh;
+    align-items: center;
     
+}
+.proceso h4{
+    color: blueviolet;
+    padding: 10px 0px 10px 0px;
+}
 
+.proceso h2{
+    font-size: 27px;
+    text-align: center;
+}
 
-
+.mproceso{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+}
+.mproceso i{
+    font-size: 40px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    color: white;
+}
