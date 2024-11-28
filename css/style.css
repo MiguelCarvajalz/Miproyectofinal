@@ -7,13 +7,19 @@
 /*este este el css del menu*/
 
 .menu{
-    height: 7vh;
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-weight: 700;
     background-color: rgb(80, 83, 169);
+    padding: 0 0 10px 0;
     
+}
+.menu h2{
+    color: white;
+    font-size: 15px;
+    padding: 10px 0 0 0;
 }
 
 a{
@@ -31,16 +37,24 @@ a:hover{
 }
 .hero{
     background-color: rgb(80, 83, 169);
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+.hero img{
+    padding: 0px 0px 1px 0px;
+    width: 50%;
+    height: 70vh;
+    margin-right: 0%;
+    
+}
+
 
 .soyyo h1{
     text-align: left;
     padding: 30px 20px 30px 80px;
-    font-size: 52px;
+    font-size: 30px;
     color: white;
 }
 
@@ -56,6 +70,66 @@ a:hover{
     padding: 1px 20px 30px 80px;
 
 }
+.segunda{
+    height: 80vh;
+    background-color: white;
+    
+}
+
+.contenedortres{
+    display: flex;
+    justify-content: center;
+    padding: 20px 60px 30px 60px;
+    background: whitesmoke;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+.contenedortres i{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.servicio{
+    text-align: center;
+}
+
+.servicio h4{
+    
+    padding: 100px 20px 10px 80px;
+    color: blueviolet;
+}
+
+.servicio h2{
+    padding: 0px 0 0px 0;
+    font-size: 27px;
+}
+
+.diseñou{
+    
+    
+    
+
+    
+}
+.flujoweb{
+   
+    
+    
+   
+
+    
+}
+.pruductodiseño{
+    
+    
+
+
+}
+    
 
 
 
