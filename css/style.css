@@ -22,7 +22,7 @@
     padding: 10px 0 0 0;
 }
 
-a{
+.menu a{
     padding: 10px 0 0 0;
     text-decoration: none;
     color: white;
@@ -174,11 +174,11 @@ a:hover{
 }
 
 .mproceso{
-    height: 20vh;
+    padding: 40px 20px 10px 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    
     text-align: center;
     
 }
@@ -187,4 +187,22 @@ a:hover{
     background-color: blueviolet;
     border-radius: 100%;
     color: white;
+}
+.testimonios{
+    text-align: center;
+    background-color: beige;
+    padding: 40px;
+
+}
+.testimonios h4{
+    color: blueviolet;
+}
+.testimonios h2{
+    font-size: 27px;
+}
+
+.parrafos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
 }
